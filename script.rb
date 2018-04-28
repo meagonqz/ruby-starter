@@ -4,4 +4,5 @@ require 'bundler/setup'
 # require other gems here
 require 'rest-client'
 
-puts "farts"
+response = RestClient.get('https://jsonplaceholder.typicode.com/posts/1')
+puts response.body
