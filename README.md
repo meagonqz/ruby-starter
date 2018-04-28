@@ -24,4 +24,4 @@ Run `chruby 2.5.0` in your terminal to switch to 2.5.0 or simply switch to this 
 
 # Run script
   bundle install
-  bundle exec ./script.rb
+  ./script.rb
